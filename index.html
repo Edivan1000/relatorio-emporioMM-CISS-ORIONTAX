@@ -1,1 +1,724 @@
 
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Relatório ICMS Geral</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- ======================================================
+         CABEÇALHO
+    ======================================================= -->
+
+    <header class="header">
+
+      <div class="header-title">
+        <span class="tag">QUALIDADE</span>
+
+        <h1>Relatório ICMS Geral</h1>
+
+        <p>
+          Revisão tributária e acompanhamento da operação
+        </p>
+      </div>
+
+      <div class="status">
+        <span class="status-dot"></span>
+        Operação em andamento
+      </div>
+
+    </header>
+
+
+    <!-- ======================================================
+         RESUMO GERAL
+    ======================================================= -->
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <span class="section-label">🔎 REVISÃO TRIBUTÁRIA</span>
+
+        <h2>
+          Acompanhamento da revisão<br>
+          de ICMS
+        </h2>
+
+        <p>
+          Revisão dos itens com foco nos impactos tributários
+          a menor e a maior, conforme as solicitações da
+          equipe de Qualidade e do coordenador Paulo.
+        </p>
+
+      </div>
+
+      <div class="hero-total">
+
+        <strong>451</strong>
+
+        <span>
+          itens no total
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         CARDS PRINCIPAIS
+    ======================================================= -->
+
+    <section class="summary-grid">
+
+      <div class="summary-card">
+
+        <span>ITENS CONFERIDOS</span>
+
+        <strong>367</strong>
+
+        <small>
+          itens revisados
+        </small>
+
+      </div>
+
+
+      <div class="summary-card">
+
+        <span>CLIENTE JÁ CORRETO</span>
+
+        <strong>33</strong>
+
+        <small>
+          itens aplicados corretamente
+        </small>
+
+      </div>
+
+
+      <div class="summary-card">
+
+        <span>SIMILARES CORRIGIDOS</span>
+
+        <strong>14</strong>
+
+        <small>
+          itens adicionais
+        </small>
+
+      </div>
+
+
+      <div class="summary-card pending">
+
+        <span>PENDENTES</span>
+
+        <strong>84</strong>
+
+        <small>
+          itens aguardando continuidade
+        </small>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         PROGRESSO
+    ======================================================= -->
+
+    <section class="progress-card">
+
+      <div class="progress-header">
+
+        <div>
+
+          <span class="section-label">
+            PROGRESSO GERAL
+          </span>
+
+          <h3>
+            367 de 451 itens conferidos
+          </h3>
+
+        </div>
+
+        <strong>
+          81,4%
+        </strong>
+
+      </div>
+
+
+      <div class="progress-bar">
+
+        <div
+          class="progress-fill"
+          style="width: 81.4%;">
+        </div>
+
+      </div>
+
+
+      <div class="progress-info">
+
+        <span>
+          ● Conferidos: 367
+        </span>
+
+        <span>
+          ● Pendentes: 84
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         ETAPAS
+    ======================================================= -->
+
+    <section class="stages">
+
+
+      <!-- ====================================================
+           ETAPA 1
+      ===================================================== -->
+
+      <article class="stage-card menor">
+
+        <div class="stage-title">
+
+          <div class="stage-icon">
+            ↓
+          </div>
+
+          <div>
+
+            <span>
+              ETAPA 1
+            </span>
+
+            <h3>
+              Impacto a menor
+            </h3>
+
+          </div>
+
+        </div>
+
+
+        <p class="description">
+
+          Produtos identificados com tributação inferior
+          à devida, gerando risco de autuação.
+
+        </p>
+
+
+        <div class="stage-numbers">
+
+          <div>
+            <strong>201</strong>
+            <span>revisados</span>
+          </div>
+
+          <div>
+            <strong>13</strong>
+            <span>já corretos</span>
+          </div>
+
+          <div>
+            <strong>188</strong>
+            <span>corrigidos efetivamente</span>
+          </div>
+
+        </div>
+
+
+        <!-- IMPACTO FINANCEIRO -->
+
+        <div class="financial-impact">
+
+          <span>
+            💰 IMPACTO APURADO / TOTAL
+          </span>
+
+          <strong>
+            R$ 2.605,95
+          </strong>
+
+          <small>
+            Pag. Menor ICMS
+          </small>
+
+        </div>
+
+
+        <!-- CATEGORIAS -->
+
+        <div class="categories">
+
+          <div class="category">
+
+            <i class="red"></i>
+
+            <div>
+
+              <strong>
+                Produto não se enquadra em ST
+              </strong>
+
+              <small>
+                [ST] → [19]
+              </small>
+
+            </div>
+
+            <b>5</b>
+
+          </div>
+
+
+          <div class="category">
+
+            <i class="yellow"></i>
+
+            <div>
+
+              <strong>
+                Produto não se enquadra em isenção
+              </strong>
+
+              <small>
+                [Isento] → [19] / [12]
+              </small>
+
+            </div>
+
+            <b>3</b>
+
+          </div>
+
+
+          <div class="category">
+
+            <i class="orange"></i>
+
+            <div>
+
+              <strong>
+                Produto não se enquadra em redução
+              </strong>
+
+              <small>
+                [7] → [21] / [19] / [12]
+              </small>
+
+            </div>
+
+            <b>98</b>
+
+          </div>
+
+
+          <div class="category">
+
+            <i class="blue"></i>
+
+            <div>
+
+              <strong>
+                Alíquota incorreta
+              </strong>
+
+              <small>
+                [25] → [27] / [19] → [21] /
+                [19] → [25] / [12] → [19] /
+                [7] → [19]
+              </small>
+
+            </div>
+
+            <b>78</b>
+
+          </div>
+
+
+          <div class="category">
+
+            <i class="gray"></i>
+
+            <div>
+
+              <strong>
+                Outros
+              </strong>
+
+            </div>
+
+            <b>4</b>
+
+          </div>
+
+        </div>
+
+
+        <!-- DETALHAMENTO -->
+
+        <details>
+
+          <summary>
+            Ver detalhamento das ocorrências
+          </summary>
+
+          <ul>
+
+            <li>[ST] → [19] <b>5</b></li>
+
+            <li>[Isento] → [19] <b>2</b></li>
+
+            <li>[Isento] → [12] <b>1</b></li>
+
+            <li>[7] → [21] <b>1</b></li>
+
+            <li>[7] → [19] <b>46</b></li>
+
+            <li>[7] → [12] <b>51</b></li>
+
+            <li>[25] → [27] <b>9</b></li>
+
+            <li>[19] → [21] <b>30</b></li>
+
+            <li>[19] → [25] <b>2</b></li>
+
+            <li>[12] → [19] <b>36</b></li>
+
+            <li>[7] → [19] <b>1</b></li>
+
+            <li>Outros <b>4</b></li>
+
+          </ul>
+
+        </details>
+
+      </article>
+
+
+      <!-- ====================================================
+           ETAPA 2
+      ===================================================== -->
+
+      <article class="stage-card maior">
+
+        <div class="stage-title">
+
+          <div class="stage-icon">
+            ↑
+          </div>
+
+          <div>
+
+            <span>
+              ETAPA 2
+            </span>
+
+            <h3>
+              Impacto a maior
+            </h3>
+
+          </div>
+
+        </div>
+
+
+        <p class="description">
+
+          Identificação de produtos com tributação
+          superior à aplicável.
+
+        </p>
+
+
+        <div class="stage-numbers">
+
+          <div>
+            <strong>166</strong>
+            <span>revisados</span>
+          </div>
+
+          <div>
+            <strong>20</strong>
+            <span>já corretos</span>
+          </div>
+
+          <div>
+            <strong>230</strong>
+            <span>corrigidos efetivamente</span>
+          </div>
+
+        </div>
+
+
+        <div class="categories">
+
+          <div class="category">
+
+            <i class="red"></i>
+
+            <div>
+
+              <strong>
+                Produto se enquadra em ST
+              </strong>
+
+              <small>
+                [19] → [ST]
+              </small>
+
+            </div>
+
+            <b>1</b>
+
+          </div>
+
+
+          <div class="category">
+
+            <i class="orange"></i>
+
+            <div>
+
+              <strong>
+                Produto se enquadra em redução
+              </strong>
+
+              <small>
+                [12] → [7] / [19] → [7] /
+                [19] → [12]
+              </small>
+
+            </div>
+
+            <b>130</b>
+
+          </div>
+
+
+          <div class="category">
+
+            <i class="blue"></i>
+
+            <div>
+
+              <strong>
+                Alíquota incorreta
+              </strong>
+
+              <small>
+                [21] → [19] / [19] → [12]
+              </small>
+
+            </div>
+
+            <b>15</b>
+
+          </div>
+
+        </div>
+
+
+        <details>
+
+          <summary>
+            Ver detalhamento das ocorrências
+          </summary>
+
+          <ul>
+
+            <li>[19] → [ST] <b>1</b></li>
+
+            <li>[12] → [7] <b>26</b></li>
+
+            <li>12% direto sem redução <b>43</b></li>
+
+            <li>12% direto sem redução <b>5</b></li>
+
+            <li>[19] → [7] <b>18</b></li>
+
+            <li>[19] → [12] <b>35</b></li>
+
+            <li>
+              Redução incorreta [19] → [7],
+              correto [12] → [7%]
+              <b>3</b>
+            </li>
+
+            <li>[21] → [19] <b>1</b></li>
+
+            <li>[19] → [12] <b>14</b></li>
+
+          </ul>
+
+        </details>
+
+      </article>
+
+    </section>
+
+
+    <!-- ======================================================
+         PENDÊNCIAS
+    ======================================================= -->
+
+    <section class="pending-card">
+
+      <div class="pending-icon">
+        ⏳
+      </div>
+
+
+      <div class="pending-content">
+
+        <span class="section-label">
+          CONTINUIDADE DA OPERAÇÃO
+        </span>
+
+        <h3>
+          84 itens ainda pendentes
+        </h3>
+
+        <p>
+          Produto se enquadra em redução de
+          <strong>12% para 7%</strong>.
+        </p>
+
+
+        <div class="pending-items">
+
+          <div>
+            <strong>67</strong>
+            <span>itens</span>
+            <small>Sabonete</small>
+          </div>
+
+          <div>
+            <strong>17</strong>
+            <span>itens</span>
+            <small>Vinagre</small>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="technical-alert">
+
+        <strong>
+          ⚠ Problema técnico
+        </strong>
+
+        <p>
+          Devido a problemas técnicos, a máquina do cliente
+          está sem condições adequadas de uso,
+          apresentando muita lentidão.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         CONCLUSÃO
+    ======================================================= -->
+
+    <section class="conclusion">
+
+      <div class="conclusion-header">
+
+        <span class="section-label">
+          CONCLUSÃO
+        </span>
+
+        <h3>
+          Duas frentes de revisão
+        </h3>
+
+      </div>
+
+
+      <div class="conclusion-grid">
+
+        <div class="conclusion-item powerbi">
+
+          <span>
+            POWER BI
+          </span>
+
+          <p>
+            A revisão pelo Power BI busca atacar diretamente
+            os itens de maior impacto a <strong>MENOR</strong>
+            atualmente, conforme solicitado pela equipe
+            de Qualidade.
+          </p>
+
+        </div>
+
+
+        <div class="conclusion-item saneamento">
+
+          <span>
+            RELATÓRIO DE SANEAMENTO
+          </span>
+
+          <p>
+            Já a revisão pelo relatório de saneamento amplia
+            o alcance para mais produtos, conforme solicitado
+            pelo coordenador Paulo, com o objetivo de contribuir
+            para a redução dos impactos tanto a
+            <strong>MENOR</strong> quanto a <strong>MAIOR</strong>.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         RODAPÉ
+    ======================================================= -->
+
+    <footer>
+
+      <span>
+        Relatório ICMS Geral
+      </span>
+
+      <span>
+        Revisão tributária • Qualidade
+      </span>
+
+    </footer>
+
+  </div>
+
+</body>
+</html>
+```
