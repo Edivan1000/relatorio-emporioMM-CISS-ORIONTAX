@@ -1228,3 +1228,26 @@ footer span {
   }
 
 }
+
+details summary {
+  cursor: pointer;
+  position: relative;
+  padding-right: 40px;
+}
+
+details summary::after {
+  content: "＋";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4rem;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+details[open] summary::after {
+  content: "−";
+}
+
+
