@@ -1,34 +1,27 @@
-
-```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Relatório ICMS Geral</title>
+  <title>Relatório de Qualidade | ICMS</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="container">
+  <!-- ======================================================
+       CABEÇALHO
+  ======================================================= -->
 
-    <!-- ======================================================
-         CABEÇALHO
-    ======================================================= -->
+  <header class="topbar">
+    <div class="container topbar-content">
 
-    <header class="header">
-
-      <div class="header-title">
-        <span class="tag">QUALIDADE</span>
-
-        <h1>Relatório ICMS Geral</h1>
-
-        <p>
-          Revisão tributária e acompanhamento da operação
-        </p>
+      <div>
+        <span class="eyebrow">QUALIDADE</span>
+        <h1>Relatório de Revisão Tributária</h1>
+        <p>Acompanhamento das atividades de conferência e saneamento de ICMS</p>
       </div>
 
       <div class="status">
@@ -36,611 +29,678 @@
         Operação em andamento
       </div>
 
-    </header>
+    </div>
+  </header>
+
+
+  <main class="container">
 
 
     <!-- ======================================================
-         RESUMO GERAL
+         VISÃO GERAL
     ======================================================= -->
 
-    <section class="hero">
+    <section class="intro">
 
-      <div class="hero-content">
+      <span class="section-label">VISÃO GERAL</span>
 
-        <span class="section-label">🔎 REVISÃO TRIBUTÁRIA</span>
+      <h2>Acompanhamento da Qualidade Tributária</h2>
 
-        <h2>
-          Acompanhamento da revisão<br>
-          de ICMS
-        </h2>
-
-        <p>
-          Revisão dos itens com foco nos impactos tributários
-          a menor e a maior, conforme as solicitações da
-          equipe de Qualidade e do coordenador Paulo.
-        </p>
-
-      </div>
-
-      <div class="hero-total">
-
-        <strong>451</strong>
-
-        <span>
-          itens no total
-        </span>
-
-      </div>
+      <p>
+        Painel de acompanhamento das atividades realizadas,
+        apresentando separadamente o trabalho desenvolvido através
+        do Power BI e a revisão complementar realizada pelo
+        Relatório ICMS Geral.
+      </p>
 
     </section>
 
 
-    <!-- ======================================================
-         CARDS PRINCIPAIS
-    ======================================================= -->
-
-    <section class="summary-grid">
-
-      <div class="summary-card">
-
-        <span>ITENS CONFERIDOS</span>
-
-        <strong>367</strong>
-
-        <small>
-          itens revisados
-        </small>
-
-      </div>
-
-
-      <div class="summary-card">
-
-        <span>CLIENTE JÁ CORRETO</span>
-
-        <strong>33</strong>
-
-        <small>
-          itens aplicados corretamente
-        </small>
-
-      </div>
-
-
-      <div class="summary-card">
-
-        <span>SIMILARES CORRIGIDOS</span>
-
-        <strong>14</strong>
-
-        <small>
-          itens adicionais
-        </small>
-
-      </div>
-
-
-      <div class="summary-card pending">
-
-        <span>PENDENTES</span>
-
-        <strong>84</strong>
-
-        <small>
-          itens aguardando continuidade
-        </small>
-
-      </div>
-
-    </section>
-
 
     <!-- ======================================================
-         PROGRESSO
+         FRENTE 01
+         DASHBOARD POWER BI — THIAGO
     ======================================================= -->
 
-    <section class="progress-card">
+    <section class="project-section powerbi-section">
 
-      <div class="progress-header">
+      <div class="project-header">
 
         <div>
+          <span class="section-label">FRENTE 01</span>
 
-          <span class="section-label">
-            PROGRESSO GERAL
-          </span>
+          <h2>
+            📊 Dashboard Power BI — Qualidade &gt; Thiago
+          </h2>
 
-          <h3>
-            367 de 451 itens conferidos
-          </h3>
-
+          <p>
+            Revisão dos produtos identificados através do Dashboard
+            Power BI, com foco exclusivamente nos casos de
+            <strong>impacto a menor</strong>.
+          </p>
         </div>
 
-        <strong>
-          81,4%
-        </strong>
-
-      </div>
-
-
-      <div class="progress-bar">
-
-        <div
-          class="progress-fill"
-          style="width: 81.4%;">
+        <div class="completed-badge">
+          ✓ CONCLUÍDO
         </div>
 
       </div>
 
 
-      <div class="progress-info">
+      <!-- RESUMO POWER BI -->
 
-        <span>
-          ● Conferidos: 367
-        </span>
+      <div class="summary-grid">
 
-        <span>
-          ● Pendentes: 84
-        </span>
+        <div class="summary-card highlight">
+          <span>Itens no total</span>
+          <strong>220</strong>
+          <small>100% conferidos</small>
+        </div>
+
+        <div class="summary-card">
+          <span>Status</span>
+          <strong class="success-text">100%</strong>
+          <small>Conferência concluída</small>
+        </div>
+
+        <div class="summary-card">
+          <span>Impacto</span>
+          <strong>MENOR</strong>
+          <small>Risco de autuação</small>
+        </div>
+
+        <div class="summary-card money-card">
+          <span>Pag. Menor ICMS</span>
+          <strong>R$ 2.605,95</strong>
+          <small>Impacto apurado / Total</small>
+        </div>
+
+      </div>
+
+
+      <!-- IMPACTO POWER BI -->
+
+      <div class="impact-card impact-red">
+
+        <div class="impact-title">
+          <span class="impact-icon">⚠️</span>
+
+          <div>
+            <h3>Impacto a menor</h3>
+
+            <p>
+              Produtos identificados com tributação inferior à devida,
+              gerando risco de autuação.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="tax-list">
+
+          <div class="tax-row correct">
+            <span>Cliente [7] → Correto [7]</span>
+            <strong>25</strong>
+            <small>estavam certos</small>
+          </div>
+
+          <div class="tax-row correct">
+            <span>Cliente [12] → Correto [12]</span>
+            <strong>1</strong>
+            <small>estava certo</small>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [0] → Correto [12]</span>
+            <strong>2</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [0] → Correto [19]</span>
+            <strong>9</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [7] → Correto [19]</span>
+            <strong>48</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [7] → Correto [12]</span>
+            <strong>52</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [12] → Correto [19]</span>
+            <strong>41</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [7] → Correto [21]</span>
+            <strong>1</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [19] → Correto [21]</span>
+            <strong>30</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [19] → Correto [25]</span>
+            <strong>2</strong>
+          </div>
+
+          <div class="tax-row">
+            <span>Cliente [25] → Correto [27]</span>
+            <strong>9</strong>
+          </div>
+
+        </div>
 
       </div>
 
     </section>
 
 
+
     <!-- ======================================================
-         ETAPAS
+         DIVISOR
     ======================================================= -->
 
-    <section class="stages">
+    <div class="section-divider">
+      <span>PRÓXIMA FRENTE</span>
+    </div>
+
+
+
+    <!-- ======================================================
+         FRENTE 02
+         RELATÓRIO ICMS GERAL
+    ======================================================= -->
+
+    <section class="project-section icms-section">
+
+      <div class="project-header">
+
+        <div>
+          <span class="section-label">FRENTE 02</span>
+
+          <h2>
+            🔎 Relatório ICMS Geral
+          </h2>
+
+          <p>
+            Revisão complementar solicitada pelo Coordenador Paulo,
+            ampliando o alcance da análise para diferentes situações
+            tributárias e contemplando impactos a menor e a maior.
+          </p>
+        </div>
+
+      </div>
+
+
+      <!-- RESUMO GERAL -->
+
+      <div class="general-summary">
+
+        <div class="big-number">
+          <span>Itens no total</span>
+          <strong>451</strong>
+        </div>
+
+        <div class="summary-info">
+          <strong>367</strong>
+          <span>conferidos</span>
+        </div>
+
+        <div class="summary-info">
+          <strong>33</strong>
+          <span>cliente já aplicava corretamente</span>
+        </div>
+
+        <div class="summary-info">
+          <strong>14</strong>
+          <span>similares corrigidos também</span>
+        </div>
+
+      </div>
+
 
 
       <!-- ====================================================
-           ETAPA 1
+           IMPACTO A MENOR
       ===================================================== -->
 
-      <article class="stage-card menor">
+      <div class="impact-block menor">
 
-        <div class="stage-title">
-
-          <div class="stage-icon">
-            ↓
-          </div>
+        <div class="block-header">
 
           <div>
+            <span class="impact-number">01</span>
 
-            <span>
-              ETAPA 1
-            </span>
+            <div>
+              <h3>Impacto a menor</h3>
 
-            <h3>
-              Impacto a menor
-            </h3>
-
+              <p>
+                Produtos com tributação inferior à devida.
+              </p>
+            </div>
           </div>
 
-        </div>
-
-
-        <p class="description">
-
-          Produtos identificados com tributação inferior
-          à devida, gerando risco de autuação.
-
-        </p>
-
-
-        <div class="stage-numbers">
-
-          <div>
+          <div class="block-counter">
             <strong>201</strong>
             <span>revisados</span>
           </div>
 
-          <div>
-            <strong>13</strong>
-            <span>já corretos</span>
-          </div>
-
-          <div>
-            <strong>188</strong>
-            <span>corrigidos efetivamente</span>
-          </div>
-
         </div>
 
 
-        <!-- IMPACTO FINANCEIRO -->
-
-        <div class="financial-impact">
-
+        <div class="notice">
+          <strong>13 itens</strong>
           <span>
-            💰 IMPACTO APURADO / TOTAL
+            o cliente já estava aplicando corretamente.
           </span>
-
-          <strong>
-            R$ 2.605,95
-          </strong>
-
-          <small>
-            Pag. Menor ICMS
-          </small>
-
         </div>
 
 
-        <!-- CATEGORIAS -->
+        <div class="category-list">
 
-        <div class="categories">
 
-          <div class="category">
+          <!-- ST -->
 
-            <i class="red"></i>
+          <details open>
 
-            <div>
+            <summary>
+              <span class="category-dot red"></span>
 
-              <strong>
+              <span>
                 Produto não se enquadra em ST
-              </strong>
+              </span>
 
-              <small>
-                [ST] → [19]
-              </small>
+              <strong>5</strong>
+            </summary>
+
+            <div class="category-content">
+
+              <div class="tax-row">
+                <span>Cliente [ST] → Correto [19]</span>
+                <strong>5</strong>
+              </div>
 
             </div>
 
-            <b>5</b>
-
-          </div>
+          </details>
 
 
-          <div class="category">
 
-            <i class="yellow"></i>
+          <!-- ISENÇÃO -->
 
-            <div>
+          <details>
 
-              <strong>
+            <summary>
+              <span class="category-dot yellow"></span>
+
+              <span>
                 Produto não se enquadra em isenção
-              </strong>
+              </span>
 
-              <small>
-                [Isento] → [19] / [12]
-              </small>
+              <strong>3</strong>
+            </summary>
+
+            <div class="category-content">
+
+              <div class="tax-row">
+                <span>Cliente [Isento] → Correto [19]</span>
+                <strong>2</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [Isento] → Correto [12]</span>
+                <strong>1</strong>
+              </div>
 
             </div>
 
-            <b>3</b>
-
-          </div>
+          </details>
 
 
-          <div class="category">
 
-            <i class="orange"></i>
+          <!-- REDUÇÃO -->
 
-            <div>
+          <details>
 
-              <strong>
+            <summary>
+              <span class="category-dot orange"></span>
+
+              <span>
                 Produto não se enquadra em redução
-              </strong>
+              </span>
 
-              <small>
-                [7] → [21] / [19] / [12]
-              </small>
+              <strong>98</strong>
+            </summary>
+
+            <div class="category-content">
+
+              <div class="tax-row">
+                <span>Cliente [7] → Correto [21]</span>
+                <strong>1</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [7] → Correto [19]</span>
+                <strong>46</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [7] → Correto [12]</span>
+                <strong>51</strong>
+              </div>
 
             </div>
 
-            <b>98</b>
-
-          </div>
+          </details>
 
 
-          <div class="category">
 
-            <i class="blue"></i>
+          <!-- ALÍQUOTA -->
 
-            <div>
+          <details>
 
-              <strong>
+            <summary>
+              <span class="category-dot blue"></span>
+
+              <span>
                 Alíquota incorreta
-              </strong>
+              </span>
 
-              <small>
-                [25] → [27] / [19] → [21] /
-                [19] → [25] / [12] → [19] /
-                [7] → [19]
-              </small>
+              <strong>78</strong>
+            </summary>
+
+            <div class="category-content">
+
+              <div class="tax-row">
+                <span>Cliente [25] → Correto [27]</span>
+                <strong>9</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [19] → Correto [21]</span>
+                <strong>30</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [19] → Correto [25]</span>
+                <strong>2</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [12] → Correto [19]</span>
+                <strong>36</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [7] → Correto [19]</span>
+                <strong>1</strong>
+              </div>
 
             </div>
 
-            <b>78</b>
-
-          </div>
+          </details>
 
 
-          <div class="category">
 
-            <i class="gray"></i>
+          <!-- OUTROS -->
 
-            <div>
+          <details>
 
-              <strong>
+            <summary>
+              <span class="category-dot gray"></span>
+
+              <span>
                 Outros
-              </strong>
+              </span>
 
-            </div>
+              <strong>4</strong>
+            </summary>
 
-            <b>4</b>
+          </details>
 
-          </div>
 
         </div>
 
 
-        <!-- DETALHAMENTO -->
+        <div class="block-total">
+          <span>Total corrigidos efetivamente</span>
+          <strong>188</strong>
+        </div>
 
-        <details>
+      </div>
 
-          <summary>
-            Ver detalhamento das ocorrências
-          </summary>
-
-          <ul>
-
-            <li>[ST] → [19] <b>5</b></li>
-
-            <li>[Isento] → [19] <b>2</b></li>
-
-            <li>[Isento] → [12] <b>1</b></li>
-
-            <li>[7] → [21] <b>1</b></li>
-
-            <li>[7] → [19] <b>46</b></li>
-
-            <li>[7] → [12] <b>51</b></li>
-
-            <li>[25] → [27] <b>9</b></li>
-
-            <li>[19] → [21] <b>30</b></li>
-
-            <li>[19] → [25] <b>2</b></li>
-
-            <li>[12] → [19] <b>36</b></li>
-
-            <li>[7] → [19] <b>1</b></li>
-
-            <li>Outros <b>4</b></li>
-
-          </ul>
-
-        </details>
-
-      </article>
 
 
       <!-- ====================================================
-           ETAPA 2
+           IMPACTO A MAIOR
       ===================================================== -->
 
-      <article class="stage-card maior">
+      <div class="impact-block maior">
 
-        <div class="stage-title">
-
-          <div class="stage-icon">
-            ↑
-          </div>
+        <div class="block-header">
 
           <div>
+            <span class="impact-number">02</span>
 
-            <span>
-              ETAPA 2
-            </span>
+            <div>
+              <h3>Impacto a maior</h3>
 
-            <h3>
-              Impacto a maior
-            </h3>
-
+              <p>
+                Produtos identificados com tributação superior à devida.
+              </p>
+            </div>
           </div>
 
-        </div>
-
-
-        <p class="description">
-
-          Identificação de produtos com tributação
-          superior à aplicável.
-
-        </p>
-
-
-        <div class="stage-numbers">
-
-          <div>
+          <div class="block-counter">
             <strong>166</strong>
             <span>revisados</span>
           </div>
 
-          <div>
-            <strong>20</strong>
-            <span>já corretos</span>
-          </div>
-
-          <div>
-            <strong>230</strong>
-            <span>corrigidos efetivamente</span>
-          </div>
-
         </div>
 
 
-        <div class="categories">
+        <div class="notice">
+          <strong>20 itens</strong>
+          <span>
+            o cliente já estava aplicando corretamente.
+          </span>
+        </div>
 
-          <div class="category">
 
-            <i class="red"></i>
+        <div class="category-list">
 
-            <div>
 
-              <strong>
+          <!-- ST -->
+
+          <details open>
+
+            <summary>
+              <span class="category-dot red"></span>
+
+              <span>
                 Produto se enquadra em ST
-              </strong>
+              </span>
 
-              <small>
-                [19] → [ST]
-              </small>
+              <strong>1</strong>
+            </summary>
+
+            <div class="category-content">
+
+              <div class="tax-row">
+                <span>Cliente [19] → Correto [ST]</span>
+                <strong>1</strong>
+              </div>
 
             </div>
 
-            <b>1</b>
-
-          </div>
+          </details>
 
 
-          <div class="category">
 
-            <i class="orange"></i>
+          <!-- REDUÇÃO -->
 
-            <div>
+          <details>
 
-              <strong>
+            <summary>
+              <span class="category-dot orange"></span>
+
+              <span>
                 Produto se enquadra em redução
-              </strong>
+              </span>
 
-              <small>
-                [12] → [7] / [19] → [7] /
-                [19] → [12]
-              </small>
+              <strong>130</strong>
+            </summary>
+
+            <div class="category-content">
+
+              <div class="tax-row">
+                <span>Cliente [12] → Correto [7]</span>
+                <strong>26</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>
+                  Cliente [12] → Correto [7]
+                  — aplicava 12% direto sem redução
+                </span>
+                <strong>43</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>
+                  Cliente [12] → Correto [7]
+                  — aplicava 12% direto sem redução
+                </span>
+                <strong>5</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [19] → Correto [7]</span>
+                <strong>18</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [19] → Correto [12]</span>
+                <strong>35</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>
+                  Cliente [19] → Correto [7]
+                  — redução incorreta; correto é 12% para 7%
+                </span>
+                <strong>3</strong>
+              </div>
 
             </div>
 
-            <b>130</b>
-
-          </div>
+          </details>
 
 
-          <div class="category">
 
-            <i class="blue"></i>
+          <!-- ALÍQUOTA -->
 
-            <div>
+          <details>
 
-              <strong>
+            <summary>
+              <span class="category-dot blue"></span>
+
+              <span>
                 Alíquota incorreta
-              </strong>
+              </span>
 
-              <small>
-                [21] → [19] / [19] → [12]
-              </small>
+              <strong>15</strong>
+            </summary>
+
+            <div class="category-content">
+
+              <div class="tax-row">
+                <span>Cliente [21] → Correto [19]</span>
+                <strong>1</strong>
+              </div>
+
+              <div class="tax-row">
+                <span>Cliente [19] → Correto [12]</span>
+                <strong>14</strong>
+              </div>
 
             </div>
 
-            <b>15</b>
+          </details>
 
-          </div>
 
         </div>
 
 
-        <details>
-
-          <summary>
-            Ver detalhamento das ocorrências
-          </summary>
-
-          <ul>
-
-            <li>[19] → [ST] <b>1</b></li>
-
-            <li>[12] → [7] <b>26</b></li>
-
-            <li>12% direto sem redução <b>43</b></li>
-
-            <li>12% direto sem redução <b>5</b></li>
-
-            <li>[19] → [7] <b>18</b></li>
-
-            <li>[19] → [12] <b>35</b></li>
-
-            <li>
-              Redução incorreta [19] → [7],
-              correto [12] → [7%]
-              <b>3</b>
-            </li>
-
-            <li>[21] → [19] <b>1</b></li>
-
-            <li>[19] → [12] <b>14</b></li>
-
-          </ul>
-
-        </details>
-
-      </article>
-
-    </section>
-
-
-    <!-- ======================================================
-         PENDÊNCIAS
-    ======================================================= -->
-
-    <section class="pending-card">
-
-      <div class="pending-icon">
-        ⏳
-      </div>
-
-
-      <div class="pending-content">
-
-        <span class="section-label">
-          CONTINUIDADE DA OPERAÇÃO
-        </span>
-
-        <h3>
-          84 itens ainda pendentes
-        </h3>
-
-        <p>
-          Produto se enquadra em redução de
-          <strong>12% para 7%</strong>.
-        </p>
-
-
-        <div class="pending-items">
-
-          <div>
-            <strong>67</strong>
-            <span>itens</span>
-            <small>Sabonete</small>
-          </div>
-
-          <div>
-            <strong>17</strong>
-            <span>itens</span>
-            <small>Vinagre</small>
-          </div>
-
+        <div class="block-total">
+          <span>Total corrigidos efetivamente</span>
+          <strong>230</strong>
         </div>
 
       </div>
 
 
-      <div class="technical-alert">
 
-        <strong>
-          ⚠ Problema técnico
-        </strong>
+      <!-- ====================================================
+           PENDÊNCIAS
+      ===================================================== -->
 
-        <p>
-          Devido a problemas técnicos, a máquina do cliente
-          está sem condições adequadas de uso,
-          apresentando muita lentidão.
-        </p>
+      <div class="pending-card">
+
+        <div class="pending-header">
+
+          <span class="pending-icon">⏳</span>
+
+          <div>
+            <h3>Itens pendentes</h3>
+            <p>
+              Atividades que ainda aguardam revisão.
+            </p>
+          </div>
+
+          <strong>84</strong>
+
+        </div>
+
+
+        <div class="pending-grid">
+
+          <div>
+            <span>67 itens</span>
+            <strong>Sabonete</strong>
+          </div>
+
+          <div>
+            <span>17 itens</span>
+            <strong>Vinagre</strong>
+          </div>
+
+        </div>
+
+
+        <div class="technical-alert">
+
+          <span>⚙️</span>
+
+          <p>
+            Devido a problemas técnicos — máquina do cliente sem
+            condições de uso, apresentando lentidão excessiva —
+            estamos nesta fase da operação.
+          </p>
+
+        </div>
 
       </div>
 
     </section>
+
 
 
     <!-- ======================================================
@@ -649,49 +709,40 @@
 
     <section class="conclusion">
 
-      <div class="conclusion-header">
+      <span class="section-label">CONCLUSÃO</span>
 
-        <span class="section-label">
-          CONCLUSÃO
-        </span>
-
-        <h3>
-          Duas frentes de revisão
-        </h3>
-
-      </div>
+      <h2>Objetivo das revisões</h2>
 
 
       <div class="conclusion-grid">
 
-        <div class="conclusion-item powerbi">
+        <div class="conclusion-card">
 
-          <span>
-            POWER BI
-          </span>
+          <span class="conclusion-icon">📊</span>
+
+          <h3>Power BI</h3>
 
           <p>
-            A revisão pelo Power BI busca atacar diretamente
-            os itens de maior impacto a <strong>MENOR</strong>
-            atualmente, conforme solicitado pela equipe
-            de Qualidade.
+            A revisão pelo Power BI busca atacar diretamente os
+            itens de maior impacto a <strong>MENOR</strong> atualmente,
+            conforme solicitado pela equipe de Qualidade.
           </p>
 
         </div>
 
 
-        <div class="conclusion-item saneamento">
+        <div class="conclusion-card">
 
-          <span>
-            RELATÓRIO DE SANEAMENTO
-          </span>
+          <span class="conclusion-icon">🔎</span>
+
+          <h3>Relatório de Saneamento</h3>
 
           <p>
-            Já a revisão pelo relatório de saneamento amplia
-            o alcance para mais produtos, conforme solicitado
-            pelo coordenador Paulo, com o objetivo de contribuir
-            para a redução dos impactos tanto a
-            <strong>MENOR</strong> quanto a <strong>MAIOR</strong>.
+            Já a revisão pelo relatório de saneamento amplia o
+            alcance para mais produtos, solicitado pelo coordenador
+            Paulo, tendo o objetivo de contribuir para a redução dos
+            impactos tanto a <strong>MENOR</strong> quanto a
+            <strong>MAIOR</strong>.
           </p>
 
         </div>
@@ -701,24 +752,28 @@
     </section>
 
 
-    <!-- ======================================================
-         RODAPÉ
-    ======================================================= -->
+  </main>
 
-    <footer>
+
+
+  <!-- ======================================================
+       RODAPÉ
+  ======================================================= -->
+
+  <footer>
+
+    <div class="container">
+
+      <strong>RELATÓRIO DE QUALIDADE</strong>
 
       <span>
-        Relatório ICMS Geral
+        Revisão e saneamento tributário — ICMS
       </span>
 
-      <span>
-        Revisão tributária • Qualidade
-      </span>
+    </div>
 
-    </footer>
+  </footer>
 
-  </div>
 
 </body>
 </html>
-```
